@@ -1186,10 +1186,10 @@
   resolved "https://registry.yarnpkg.com/@csstools/selector-specificity/-/selector-specificity-2.1.1.tgz#c9c61d9fe5ca5ac664e1153bb0aa0eba1c6d6308"
   integrity sha512-jwx+WCqszn53YHOfvFMJJRd/B2GqkCBt+1MJSG6o5/s8+ytHMvDZXsJgUEWLk12UnLd7HYKac4BYU5i/Ron1Cw==
 
-"@cyberlab/cyberconnect-v2@^0.0.1-alpha.3":
-  version "0.0.1-alpha.3"
-  resolved "https://registry.yarnpkg.com/@cyberlab/cyberconnect-v2/-/cyberconnect-v2-0.0.1-alpha.3.tgz#1da4ba9656db93ee01b04e008381d051d19ddd2d"
-  integrity sha512-ZWMPjzNhIcbR4rkmXb2Ib9r6Fx+aIPL4vPXW6MeVueLYb2W0l3ECfnwvJFzug1nGyKbClVRpLA3XIgneSWe5ow==
+"@cyberlab/cyberconnect-v2@^0.0.1-alpha.16":
+  version "0.0.1-alpha.16"
+  resolved "https://registry.yarnpkg.com/@cyberlab/cyberconnect-v2/-/cyberconnect-v2-0.0.1-alpha.16.tgz#ec70c90a1dbe5861be055eb1d6f2447c4121c124"
+  integrity sha512-DdZqXHIeT6kbfsI3BM8FmlPf9zfd+Hvv7kgc8bMVWMvD107QRU62A3k7UQHIaYcvD6RVYnhFHfQQzJAp533AYw==
   dependencies:
     "@ethersproject/bytes" "^5.6.1"
     "@ethersproject/strings" "^5.6.0"

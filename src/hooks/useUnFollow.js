@@ -21,7 +21,7 @@ function useUnFollow() {
         .catch((error) => error)
         .finally(() => toggleIsLoading(false));
 
-      if (!error) {
+      if (!error || error.message === "ALREADY_DONE") {
         return { isSuccess: true };
       } else {
         return {

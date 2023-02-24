@@ -17,13 +17,11 @@ function useFollow() {
       const error = await cc
         .follow(window.ethereum.selectedAddress, handle)
         .catch((error) => {
-          console.log(error);
-
           return error;
         })
         .finally(() => toggleIsLoading(false));
 
-      if (!error) {
+      if (!error || error.message === "ALREADY_DONE") {
         return { isSuccess: true };
       } else {
         return {

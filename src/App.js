@@ -11,7 +11,7 @@ const FollowButton = () => {
 
   const handleClick = async () => {
     if (!isFollowing) {
-      const { isSuccess } = await follow("cyberconnect");
+      const { isSuccess, message } = await follow("cyberconnect");
 
       if (isSuccess) toggleIsFollowing(true);
     } else {
